@@ -1,0 +1,15 @@
+
+/*
+
+!/.gitignore
+!/main.cpp
+!/product.h
+!/product.cpp
+!/algorithms.cpp
+!/statistics.cpp
+!/Store.vcxproj
+!/Store.vcxproj.filters
+
+!/.vscode/
+/.vscode/*
+!/.vscode/tasks.json

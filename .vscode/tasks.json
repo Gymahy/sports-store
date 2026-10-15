@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build coursework",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++17",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=CP1251",
+                "-static",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\product.cpp",
+                "${workspaceFolder}\\algorithms.cpp",
+                "${workspaceFolder}\\statistics.cpp",
+                "-o",
+                "${workspaceFolder}\\Soe.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build C++ with Windows-1251 console strings."
+        }
+    ],
+    "version": "2.0.0"
+}
